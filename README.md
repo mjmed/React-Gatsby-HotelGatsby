@@ -19,7 +19,7 @@ Incluye:
 + gatsby-background-image
 + gatsby-source-datocms
 
-### Versión: 1.1.0
+### Versión: 1.2.0
 
 ### Notas:
 Comando para ejecutar el servidor de desarrollo:

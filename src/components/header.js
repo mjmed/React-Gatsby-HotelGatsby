@@ -13,11 +13,11 @@ const EnlaceHome = styled(Link)`
     text-decoration: none;
 `;
 
-const Header = () => {
+const Header = ({ siteName }) => {
     return (
         <header
             css={css`
-                background-color: #222;
+                background-color: rgba(44,62,80);
                 padding: 1rem;
             `}
         >
@@ -34,7 +34,7 @@ const Header = () => {
                 `}
             >
                 <EnlaceHome to='/'>
-                    <h1>Hotel Gatsby</h1>
+                    <h1>{ siteName }</h1>
                 </EnlaceHome>
 
                 <Navegacion />
